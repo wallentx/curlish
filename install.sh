@@ -14,7 +14,7 @@ fi
 
 echo 'Downloading curlish...'
 mkdir -p "$BIN_DIR"
-curl -s https://raw.github.com/fireteam/curlish/master/curlish.py > $BIN_DIR/curlish
+curl -s https://raw.githubusercontent.com/fireteam/curlish/master/curlish.py > $BIN_DIR/curlish
 chmod +x $BIN_DIR/curlish
 echo
 echo "Curlish installed successfully to $BIN_DIR/curlish"
